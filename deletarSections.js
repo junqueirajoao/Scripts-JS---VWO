@@ -16,3 +16,11 @@ function deletarSecoes(numbers){
 }
 
 deletarSecoes([2, 4, 5]);
+
+//Função para deletar todas as sections//
+
+function deletarTodas() {
+    document.querySelectorAll('[id^="section-"]').forEach(el => el.remove());
+}
+
+deletarTodas();
